@@ -2,7 +2,9 @@
   "name": "Mangata Kusama Mainnet",
   "id": "mangata_kusama_mainnet",
   "chainType": "Live",
-  "bootNodes": [],
+  "bootNodes": [
+    "/ip4/127.0.0.1/tcp/30333/p2p/12D3KooWCXmM1phJRtN5zxn1aZRgJXj5nZLVWoBaGHoaqmua5sbZ"
+  ],
   "telemetryEndpoints": null,
   "protocolId": "mangata-kusama-mainnet",
   "forkId": null,
@@ -18,7 +20,7 @@
   "genesis": {
     "raw": {
       "top": {
-        "0x0d715f2646c8f85767b5d2764bb2782604a74d81251e398fd8a0a4d55023bb3f": "0xd0070000",
+        "0x0d715f2646c8f85767b5d2764bb2782604a74d81251e398fd8a0a4d55023bb3f": "0x3e080000",
         "0x0d715f2646c8f85767b5d2764bb278264e7b9012096b41c4eb3aaf947f6ea429": "0x0000",
         "0x1f8bdc55dc469e3071666b4d031a661a4e7b9012096b41c4eb3aaf947f6ea429": "0x0000",
         "0x26aa394eea5630e07c48ae0c9558cef74e7b9012096b41c4eb3aaf947f6ea429": "0x0000",
@@ -133,4 +135,9 @@
       "childrenDefault": {}
     }
   }
+[2m2022-04-12 13:57:35[0m Building chain spec    
+[2m2022-04-12 13:57:35[0m [0] 💸 create_pool: (02d3074216e37c4e96c3a35be89fa27b6022fe08f02051989ed5b94768e69652 (5C8QeA5C...), 0, 10000000000000000000000, 2, 20000000000000000000000) -> (3, 15000000000000000000000)    
+[2m2022-04-12 13:57:35[0m [0] 💸 pool-state: [(0, 2) -> 10000000000000000000000, (2, 0) -> 20000000000000000000000]    
+[2m2022-04-12 13:57:35[0m [0] 💸 mint_liquidity: (ac1d5ec7cf53260c5ea1bb6be0d4fd8b23c50c088fad593de7cb60f76de4fe21 (5FxNpQPA...), 0, 2, 8000000000000000000000) -> (16000000000000000000001, 3, 12000000000000000000000)    
+[2m2022-04-12 13:57:35[0m [0] 💸 pool-state: [(0, 2) -> 18000000000000000000000, (2, 0) -> 36000000000000000000001]    
 }
