@@ -26,9 +26,6 @@
       "parachainInfo": {
         "parachainId": 2110
       },
-      "verifier": {
-        "key": "5EhTwL5znkMns3CgySVGR7fJKwK4tRNp5AEEbjRKPmGqQgKA"
-      },
       "bridgedAsset": {
         "bridgedAssetsLinks": [
           [
