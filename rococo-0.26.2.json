@@ -26,22 +26,6 @@
       "parachainInfo": {
         "parachainId": 2110
       },
-      "bridgedAsset": {
-        "bridgedAssetsLinks": [
-          [
-            0,
-            "0xc7e3bda797d2ceb740308ec40142ae235e08144a",
-            30000000000000000000000000,
-            "5EkcSn5ZY5YpcVzic1yD6yG8QTqvahkgCqFZkzmarivG3JNj"
-          ],
-          [
-            1,
-            "0x0000000000000000000000000000000000000000",
-            0,
-            "5EkcSn5ZY5YpcVzic1yD6yG8QTqvahkgCqFZkzmarivG3JNj"
-          ]
-        ]
-      },
       "tokens": {
         "tokensEndowment": [
           [
